@@ -142,11 +142,15 @@ body {
 }
 /*-------------------------------motivation*/
 
+.hero_btn:focus {
+  background-color: #404bbf;
+}
 .motivation_subtitle {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .motivatiom_item-text {
   color: var(--slate, #434455);
@@ -191,6 +195,7 @@ body {
   font-size: 20px;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .team_text {
   color: var(--slate, #434455);
@@ -245,6 +250,7 @@ body {
   font-size: 20px;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.02em;
+  font-weight: 500;
 }
 .conteiner_portfolio_text {
   color: var(--slate, #434455);
