@@ -1,8 +1,8 @@
 body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
-  color: var(--navyblue, #2e2f42);
   background-color: #fff;
+  color: #434455;
 }
 
 .link {
@@ -29,8 +29,8 @@ body {
 
 .header_navigation_logo,
 .footer_navigation_logo {
-  font-family: "raleway", sans-serif;
-
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
   font-size: 18px;
   line-height: 1.17; /* 116.667% 21px*/
   letter-spacing: 0.03em; /*0.54px*/
@@ -62,6 +62,7 @@ body {
   font-size: 16px;
   line-height: 1.5; /* 150% 24px*/
   letter-spacing: 0.02em; /* 0.32px */
+  font-style: normal;
 }
 
 .address_menu_tel:hover,
@@ -161,6 +162,8 @@ body {
 }
 .footer_navigation_logo_second {
   color: var(--cloud, #f4f4fd);
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
 }
 .footer_text {
   color: var(--cloud, #f4f4fd);
@@ -180,7 +183,19 @@ body {
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
+.button_nav_site:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+.button_nav_site:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
 .conteiner_portfolio_subtitle {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
