@@ -4,7 +4,22 @@ body {
   background-color: #fff;
   color: #434455;
 }
-
+:root {
+  --brand-color: #4d5ae5;
+  --brand-color2: #2e2f42;
+  --brand-color3: #404bbf;
+  --brand-color4: #ffffff;
+  --brand-color5: #434455;
+  --brand-color6: #f4f4fd;
+  --brand-color7: #31d0aa;
+  --brand-color8: #8e8f99;
+  --brand-color9: #e7e9fc;
+  --brand-color9: #fcfcfc;
+  --grey: #rgba(46, 47, 66, 0.7);
+  --novyblue-modal: #rgba(46, 47, 66, 0.4);
+  --title-font: "Roboto", sans-serif;
+  --title-font: "Raleway", sans-serif;
+}
 .link {
   text-decoration: none;
 }
@@ -13,13 +28,13 @@ body {
 }
 
 .visually-hidden {
-  position: absolute;
+  /*position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
+*/
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -56,13 +71,18 @@ body {
   letter-spacing: 0.02em;
 }
 
+.header_menu_item:focus {
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
 .address_menu_mail,
 .address_menu_tel {
   color: var(--slate, #434455);
   font-size: 16px;
   line-height: 1.5; /* 150% 24px*/
   letter-spacing: 0.02em; /* 0.32px */
-  font-style: normal;
 }
 
 .address_menu_tel:hover,
@@ -88,14 +108,14 @@ body {
   font-weight: 0.5;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   background: var(--iris, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);*/
 }
 .hero_btn:hover {
-  border-radius: 4px;
+  /*border-radius: 4px;*/
   background: var(--ocean, #404bbf);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);*/
 }
 /*-------------------------------motivation*/
 
@@ -137,11 +157,11 @@ body {
 }
 
 .team_item {
-  border-radius: 0px 0px 4px 4px;
+  /*border-radius: 0px 0px 4px 4px;*/
   background: var(--white, #fff);
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+  /*box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);*/
 }
 .team_subtitle {
   color: var(--navyblue, #2e2f42);
