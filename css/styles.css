@@ -1,10 +1,4 @@
-body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
-  background-color: #fff;
-  color: #434455;
-}
-:root {
+/*:root {
   --brand-color: #4d5ae5;
   --brand-color2: #2e2f42;
   --brand-color3: #404bbf;
@@ -19,7 +13,30 @@ body {
   --novyblue-modal: #rgba(46, 47, 66, 0.4);
   --title-font: "Roboto", sans-serif;
   --title-font: "Raleway", sans-serif;
+}*/
+:root {
+  --color-slate: #434455;
+  --color-navyblue: #2e2f42;
+  --color-white: #ffffff;
+  --color-iris: #4d5ae5;
+  --color-cloud: #f4f4fd;
+  --color-ocean: #404bbf;
+  --color-green: #31d0aa;
+  --color-ligth-slate: #8e8f99;
+  --color-corn-flower: #e7e9fc;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-dairy: #fcfcfc;
+  --primary-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
 }
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #434455;
+}
+
 .link {
   text-decoration: none;
 }
@@ -65,15 +82,17 @@ body {
   letter-spacing: 0.02em; /* 0.32px */
 }
 .header_menu_link:hover {
-  color: var(--ocean, #404bbf);
+  /*color: var(--ocean, #404bbf);*/
   font-size: 16px;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-}
-
-.header_menu_item:focus {
   color: #404bbf;
 }
+
+.header_menu_link:focus {
+  color: #404bbf;
+}
+
 .address {
   font-style: normal;
 }
@@ -108,6 +127,10 @@ body {
   font-weight: 0.5;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: #404bbf;
+
   /*border-radius: 4px;*/
   background: var(--iris, #4d5ae5);
   /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);*/
@@ -196,16 +219,17 @@ body {
 
 .button_nav_site {
   color: var(--iris, #4d5ae5);
-  text-align: center;
+
   font-family: inherit;
   font-size: 16px;
-  font-style: normal;
+
   font-weight: 500;
-  line-height: 24px; /* 150% */
-  letter-spacing: 0.64px;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
   background-color: #f4f4fd;
   cursor: pointer;
 }
+
 .button_nav_site:hover {
   color: #ffffff;
   background-color: #404bbf;
