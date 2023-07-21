@@ -107,7 +107,7 @@ body {
   letter-spacing: 0.04em;
   font-weight: 500;
   cursor: pointer;
-  background-color: #404bbf;
+  background-color: #4d5ae5;
 }
 .hero_btn:hover {
   background: var(--ocean, #404bbf);
